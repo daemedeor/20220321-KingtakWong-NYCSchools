@@ -7,16 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04BC21327E67A1B00D87CCA /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BC21227E67A1B00D87CCA /* School.swift */; };
+		D04BC21527E67A9600D87CCA /* Sat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BC21427E67A9600D87CCA /* Sat.swift */; };
+		D04BC21827E67B0D00D87CCA /* NetworkEndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BC21727E67B0D00D87CCA /* NetworkEndpointProtocol.swift */; };
+		D04BC21B27E67B7000D87CCA /* BaseNetworkClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BC21A27E67B7000D87CCA /* BaseNetworkClass.swift */; };
+		D04BC21D27E67C2E00D87CCA /* ProdInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BC21C27E67C2E00D87CCA /* ProdInformation.swift */; };
+		D04BC21F27E67C7300D87CCA /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BC21E27E67C7300D87CCA /* Credential.swift */; };
+		D04BC22227E67DA100D87CCA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BC22127E67DA100D87CCA /* NetworkError.swift */; };
+		D04BC22527E67F4600D87CCA /* NYCEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BC22427E67F4600D87CCA /* NYCEndpoint.swift */; };
 		D070D67127DFDD13009ED7FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070D67027DFDD13009ED7FF /* AppDelegate.swift */; };
 		D070D67327DFDD13009ED7FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070D67227DFDD13009ED7FF /* SceneDelegate.swift */; };
-		D070D67527DFDD13009ED7FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070D67427DFDD13009ED7FF /* ViewController.swift */; };
 		D070D67827DFDD13009ED7FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D070D67627DFDD13009ED7FF /* Main.storyboard */; };
 		D070D67B27DFDD13009ED7FF /* _0220321_KingtakWong_NYCSchools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D070D67927DFDD13009ED7FF /* _0220321_KingtakWong_NYCSchools.xcdatamodeld */; };
 		D070D67D27DFDD16009ED7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D070D67C27DFDD16009ED7FF /* Assets.xcassets */; };
 		D070D68027DFDD16009ED7FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D070D67E27DFDD16009ED7FF /* LaunchScreen.storyboard */; };
-		D070D68B27DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070D68A27DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsTests.swift */; };
+		D070D68B27DFDD16009ED7FF /* CredentialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070D68A27DFDD16009ED7FF /* CredentialTests.swift */; };
 		D070D69527DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070D69427DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsUITests.swift */; };
 		D070D69727DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070D69627DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsUITestsLaunchTests.swift */; };
+		D0BECE1E27E6810C00307E13 /* SatEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BECE1D27E6810C00307E13 /* SatEndpoint.swift */; };
+		D0BECE2027E68EE100307E13 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BECE1F27E68EE100307E13 /* Endpoint.swift */; };
+		D0BECE2127E68F4100307E13 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BC21E27E67C7300D87CCA /* Credential.swift */; };
+		D0BECE2227E68F5100307E13 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04BC21E27E67C7300D87CCA /* Credential.swift */; };
+		D0BECE2727E6CF2500307E13 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BECE2427E6CF2500307E13 /* DetailViewController.swift */; };
+		D0BECE2827E6CF2500307E13 /* SchoolInformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BECE2527E6CF2500307E13 /* SchoolInformationController.swift */; };
+		D0BECE2927E6CF2500307E13 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BECE2627E6CF2500307E13 /* MasterViewController.swift */; };
+		D0BECE2D27E6D33800307E13 /* SatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BECE2C27E6D33800307E13 /* SatViewModel.swift */; };
+		D0BECE2F27E6EAF600307E13 /* SchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BECE2E27E6EAF600307E13 /* SchoolViewModel.swift */; };
+		D0BECE3127E6EFC700307E13 /* SchoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BECE3027E6EFC700307E13 /* SchoolCell.swift */; };
+		D0E3121F27E7E73700F8BFB8 /* EndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E3121E27E7E73700F8BFB8 /* EndpointTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +55,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D04BC21227E67A1B00D87CCA /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		D04BC21427E67A9600D87CCA /* Sat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sat.swift; sourceTree = "<group>"; };
+		D04BC21727E67B0D00D87CCA /* NetworkEndpointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEndpointProtocol.swift; sourceTree = "<group>"; };
+		D04BC21A27E67B7000D87CCA /* BaseNetworkClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworkClass.swift; sourceTree = "<group>"; };
+		D04BC21C27E67C2E00D87CCA /* ProdInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdInformation.swift; sourceTree = "<group>"; };
+		D04BC21E27E67C7300D87CCA /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
+		D04BC22127E67DA100D87CCA /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		D04BC22427E67F4600D87CCA /* NYCEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCEndpoint.swift; sourceTree = "<group>"; };
 		D070D66D27DFDD13009ED7FF /* 20220321-KingtakWong-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20220321-KingtakWong-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D070D67027DFDD13009ED7FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D070D67227DFDD13009ED7FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D070D67427DFDD13009ED7FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D070D67727DFDD13009ED7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D070D67A27DFDD13009ED7FF /* _0220321_KingtakWong_NYCSchools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _0220321_KingtakWong_NYCSchools.xcdatamodel; sourceTree = "<group>"; };
 		D070D67C27DFDD16009ED7FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D070D67F27DFDD16009ED7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D070D68127DFDD16009ED7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D070D68627DFDD16009ED7FF /* 20220321-KingtakWong-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220321-KingtakWong-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D070D68A27DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220321_KingtakWong_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		D070D68A27DFDD16009ED7FF /* CredentialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialTests.swift; sourceTree = "<group>"; };
 		D070D69027DFDD16009ED7FF /* 20220321-KingtakWong-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220321-KingtakWong-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D070D69427DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220321_KingtakWong_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		D070D69627DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220321_KingtakWong_NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0BECE1D27E6810C00307E13 /* SatEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatEndpoint.swift; sourceTree = "<group>"; };
+		D0BECE1F27E68EE100307E13 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		D0BECE2427E6CF2500307E13 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D0BECE2527E6CF2500307E13 /* SchoolInformationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolInformationController.swift; sourceTree = "<group>"; };
+		D0BECE2627E6CF2500307E13 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D0BECE2C27E6D33800307E13 /* SatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatViewModel.swift; sourceTree = "<group>"; };
+		D0BECE2E27E6EAF600307E13 /* SchoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewModel.swift; sourceTree = "<group>"; };
+		D0BECE3027E6EFC700307E13 /* SchoolCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolCell.swift; sourceTree = "<group>"; };
+		D0E3121E27E7E73700F8BFB8 /* EndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +112,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D04BC21127E67A0000D87CCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D04BC21227E67A1B00D87CCA /* School.swift */,
+				D04BC21427E67A9600D87CCA /* Sat.swift */,
+				D04BC21C27E67C2E00D87CCA /* ProdInformation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D04BC21627E67AEC00D87CCA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D04BC21727E67B0D00D87CCA /* NetworkEndpointProtocol.swift */,
+				D04BC21E27E67C7300D87CCA /* Credential.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D04BC21927E67B5500D87CCA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D04BC21A27E67B7000D87CCA /* BaseNetworkClass.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D04BC22027E67D9700D87CCA /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				D04BC22127E67DA100D87CCA /* NetworkError.swift */,
+				D0BECE1F27E68EE100307E13 /* Endpoint.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		D04BC22327E67F2500D87CCA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D04BC22427E67F4600D87CCA /* NYCEndpoint.swift */,
+				D0BECE1D27E6810C00307E13 /* SatEndpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		D070D66427DFDD13009ED7FF = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +180,16 @@
 		D070D66F27DFDD13009ED7FF /* 20220321-KingtakWong-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				D0BECE2B27E6D2F200307E13 /* View Models */,
+				D0BECE2327E6CF0A00307E13 /* ViewControllers */,
+				D04BC22327E67F2500D87CCA /* Networking */,
+				D04BC22027E67D9700D87CCA /* Enum */,
+				D04BC21927E67B5500D87CCA /* Classes */,
+				D04BC21627E67AEC00D87CCA /* Protocols */,
+				D04BC21127E67A0000D87CCA /* Models */,
+				D0BECE3227E6EFCA00307E13 /* Cells */,
 				D070D67027DFDD13009ED7FF /* AppDelegate.swift */,
 				D070D67227DFDD13009ED7FF /* SceneDelegate.swift */,
-				D070D67427DFDD13009ED7FF /* ViewController.swift */,
 				D070D67627DFDD13009ED7FF /* Main.storyboard */,
 				D070D67C27DFDD16009ED7FF /* Assets.xcassets */,
 				D070D67E27DFDD16009ED7FF /* LaunchScreen.storyboard */,
@@ -116,7 +202,8 @@
 		D070D68927DFDD16009ED7FF /* 20220321-KingtakWong-NYCSchoolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				D070D68A27DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsTests.swift */,
+				D070D68A27DFDD16009ED7FF /* CredentialTests.swift */,
+				D0E3121E27E7E73700F8BFB8 /* EndpointTests.swift */,
 			);
 			path = "20220321-KingtakWong-NYCSchoolsTests";
 			sourceTree = "<group>";
@@ -128,6 +215,33 @@
 				D070D69627DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsUITestsLaunchTests.swift */,
 			);
 			path = "20220321-KingtakWong-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		D0BECE2327E6CF0A00307E13 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0BECE2427E6CF2500307E13 /* DetailViewController.swift */,
+				D0BECE2627E6CF2500307E13 /* MasterViewController.swift */,
+				D0BECE2527E6CF2500307E13 /* SchoolInformationController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D0BECE2B27E6D2F200307E13 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0BECE2C27E6D33800307E13 /* SatViewModel.swift */,
+				D0BECE2E27E6EAF600307E13 /* SchoolViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		D0BECE3227E6EFCA00307E13 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D0BECE3027E6EFC700307E13 /* SchoolCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +375,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BECE2027E68EE100307E13 /* Endpoint.swift in Sources */,
+				D04BC21527E67A9600D87CCA /* Sat.swift in Sources */,
+				D04BC21827E67B0D00D87CCA /* NetworkEndpointProtocol.swift in Sources */,
+				D04BC21F27E67C7300D87CCA /* Credential.swift in Sources */,
+				D04BC22227E67DA100D87CCA /* NetworkError.swift in Sources */,
+				D04BC21327E67A1B00D87CCA /* School.swift in Sources */,
+				D0BECE2F27E6EAF600307E13 /* SchoolViewModel.swift in Sources */,
+				D04BC21D27E67C2E00D87CCA /* ProdInformation.swift in Sources */,
 				D070D67B27DFDD13009ED7FF /* _0220321_KingtakWong_NYCSchools.xcdatamodeld in Sources */,
-				D070D67527DFDD13009ED7FF /* ViewController.swift in Sources */,
+				D0BECE1E27E6810C00307E13 /* SatEndpoint.swift in Sources */,
+				D0BECE3127E6EFC700307E13 /* SchoolCell.swift in Sources */,
+				D0BECE2D27E6D33800307E13 /* SatViewModel.swift in Sources */,
+				D04BC21B27E67B7000D87CCA /* BaseNetworkClass.swift in Sources */,
+				D0BECE2827E6CF2500307E13 /* SchoolInformationController.swift in Sources */,
+				D0BECE2927E6CF2500307E13 /* MasterViewController.swift in Sources */,
 				D070D67127DFDD13009ED7FF /* AppDelegate.swift in Sources */,
+				D0BECE2727E6CF2500307E13 /* DetailViewController.swift in Sources */,
 				D070D67327DFDD13009ED7FF /* SceneDelegate.swift in Sources */,
+				D04BC22527E67F4600D87CCA /* NYCEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +401,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D070D68B27DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsTests.swift in Sources */,
+				D0BECE2127E68F4100307E13 /* Credential.swift in Sources */,
+				D0E3121F27E7E73700F8BFB8 /* EndpointTests.swift in Sources */,
+				D070D68B27DFDD16009ED7FF /* CredentialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D070D69527DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsUITests.swift in Sources */,
+				D0BECE2227E68F5100307E13 /* Credential.swift in Sources */,
 				D070D69727DFDD16009ED7FF /* _0220321_KingtakWong_NYCSchoolsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
