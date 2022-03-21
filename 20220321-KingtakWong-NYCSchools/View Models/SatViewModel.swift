@@ -26,6 +26,7 @@ class SatViewModel {
         satCall.schoolDBN = school.dbn
 
         // Using fancy await to allow for background processing 
-        self.sat = try await self.satCall.downloadData()
+        let listOfSat = try await self.satCall.downloadData()
+        sat = listOfSat.first
     }
 }

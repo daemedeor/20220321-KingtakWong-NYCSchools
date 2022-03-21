@@ -49,7 +49,6 @@ extension NetworkEndpointProtocol {
             // There can be a lot more complex data modeling here and logic here to save to disk? Depends on what is asked for... here
             let decoder = JSONDecoder()
             let encodedData = try decoder.decode(dataType.self, from: data)
-
             return encodedData
         } catch {
             assert(true, "Issue with downloading data")
