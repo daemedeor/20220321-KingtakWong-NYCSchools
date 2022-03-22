@@ -147,7 +147,7 @@
                                 <rect key="frame" x="0.0" y="49.5" width="375" height="87"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WCw-Qf-5nD" id="37f-cq-3Eg">
-                                    <rect key="frame" x="0.0" y="0.0" width="330" height="87"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="322" height="87"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aM8-nd-Pin">
@@ -181,7 +181,9 @@
                             <outlet property="delegate" destination="7bK-jq-Zjz" id="RA6-mI-bju"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="NYC Schools" id="Zdf-7t-Un8"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
@@ -243,7 +245,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0od-Pb-pbw">
-                                <rect key="frame" x="0.0" y="354" width="375" height="313"/>
+                                <rect key="frame" x="0.0" y="354" width="375" height="264"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -270,11 +272,27 @@
                             <constraint firstItem="0od-Pb-pbw" firstAttribute="top" secondItem="gYK-uJ-fT4" secondAttribute="bottom" constant="25" id="zc2-JW-Z6x"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Contact" id="3xU-q7-D5W"/>
+                    <navigationItem key="navigationItem" title="Contact" id="3xU-q7-D5W">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="9WN-gk-ruZ">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="DiL-wx-Ct4" userLabel="Theme Change">
+                                <rect key="frame" x="218.5" y="5" width="140.5" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Change Theme"/>
+                                <connections>
+                                    <action selector="pressTheme:" destination="QXW-fe-lAl" eventType="touchUpInside" id="En4-o3-yTD"/>
+                                </connections>
+                            </button>
+                            <connections>
+                                <action selector="pressTheme:" destination="QXW-fe-lAl" id="mU3-p7-Q8P"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="desciptionTextView" destination="0od-Pb-pbw" id="hgD-KY-eGY"/>
                         <outlet property="email" destination="EFH-vm-BAs" id="iZV-8h-YjK"/>
                         <outlet property="phoneNumber" destination="i32-zY-oXB" id="yJh-Zw-gwZ"/>
+                        <outlet property="themeButton" destination="9WN-gk-ruZ" id="NwI-lD-oyR"/>
                         <outlet property="website" destination="USO-6a-zvW" id="ok3-VU-Dar"/>
                     </connections>
                 </viewController>
